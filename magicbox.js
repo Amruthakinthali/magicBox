@@ -13,8 +13,8 @@ function generateMagicSquare() {
         [0, 0, 0]
     ]
 
-    const n = magicSquare.length
-    const numList = Array.from({ length: n * n }, (_, i) => i + 1)
+    let n = magicSquare.length
+    let numList = Array.from({ length: n * n }, (_, i) => i + 1)
     
     numList.sort(() => Math.random() - 0.5)
   
